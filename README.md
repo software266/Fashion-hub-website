@@ -51,20 +51,31 @@ Fashion Hub is a modern fashion retail platform that provides users a smooth sho
 Fashion-Hub/
 │
 ├── backend/
-│ ├── controllers/
-│ ├── routes/
-│ ├── middleware/
-│ ├── services/
-│ ├── database.sql
-│ └── server.js
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── config/
+│   ├── database.sql
+│   └── server.js
 │
 ├── frontend/
-│ ├── src/
-│ ├── components/
-│ ├── styles/
-│ └── App.jsx
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
 │
-└── README.md
+├── README.md
+└── .gitignore
+
+
 
 ## ⚙️ Installation & Setup
 

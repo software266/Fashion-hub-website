@@ -49,33 +49,73 @@ Fashion Hub is a modern fashion retail platform that provides users a smooth sho
 
 ## 📂 Project Structure
 Fashion-Hub/
-│
 ├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── services/
 │   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── reviewController.js
+│   │   └── uploadController.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── migrations/
+│   │   └── add-user-contact-fields.sql
+│   ├── routes/
+│   │   ├── admin.js
+│   │   ├── auth.js
+│   │   ├── cart.js
+│   │   ├── custom.js
+│   │   ├── orders.js
+│   │   ├── products.js
+│   │   ├── profile.js
+│   │   └── reviews.js
+│   ├── services/
+│   │   └── emailService.js
+│   ├── uploads/
+│   ├── .env
 │   ├── database.sql
+│   ├── package.json
 │   └── server.js
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
-│   │   ├── pages/
+│   │   │   ├── admin/
+│   │   │   │   ├── AdminLayout.jsx
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── Products.jsx
+│   │   │   │   ├── Users.jsx
+│   │   │   │   ├── Orders.jsx
+│   │   │   │   ├── PaymentVerification.jsx
+│   │   │   │   ├── Reviews.jsx
+│   │   │   │   └── Appointments.jsx
+│   │   │   ├── user/
+│   │   │   │   ├── UserDashboard.jsx
+│   │   │   │   ├── Cart.jsx
+│   │   │   │   ├── Wishlist.jsx
+│   │   │   │   └── Orders.jsx
+│   │   │   ├── AboutUs.jsx
+│   │   │   ├── CategoryPage.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProductDetails.jsx
 │   │   ├── styles/
+│   │   │   ├── admin/
+│   │   │   ├── user/
+│   │   │   └── components/
 │   │   ├── utils/
+│   │   │   └── pdfExport.js
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   │
 │   ├── package.json
 │   └── vite.config.js
 │
-├── README.md
-└── .gitignore
-
-
+├── CATEGORIES_ANALYSIS.md
+├── PRODUCTS_ANALYSIS.md
+├── TABLES_ANALYSIS.md
+└── README.md
 
 ## ⚙️ Installation & Setup
 

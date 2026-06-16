@@ -48,7 +48,7 @@ Fashion Hub is a modern fashion retail platform that provides users a smooth sho
 - PDF Export
 
 ## 📂 Project Structure
-Fashion-Hub/
+'''Fashion-Hub/
 ├── backend/
 │   ├── config/
 │   │   └── db.js
@@ -115,7 +115,7 @@ Fashion-Hub/
 ├── CATEGORIES_ANALYSIS.md
 ├── PRODUCTS_ANALYSIS.md
 ├── TABLES_ANALYSIS.md
-└── README.md
+└── README.md '''
 
 ## ⚙️ Installation & Setup
 
